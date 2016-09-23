@@ -261,3 +261,4 @@ RefactoringAction 1474635741683 TestBowling.java RENAME testBowling_realGame=>vo
 RefactoringAction 1474635742703 TestBowling.java RENAME testBowling_realGameScore=>void testBowling_realGameScore() METHOD
 EditAction 1474635829974 TestBowling.java 10408 17 253 14
 EditAction 1474635831272 TestBowling.java 10409 17 253 14
+EditAction 1474635845438 TestBowling.java 10397 17 253 14
