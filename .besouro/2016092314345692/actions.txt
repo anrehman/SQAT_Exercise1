@@ -70,3 +70,6 @@ RefactoringAction 1474632624596 TestBowling.java RENAME testBowling_strikeScoreG
 RefactoringAction 1474632653623 TestBowling.java ADD BowlingGame oneGame/2 FIELD
 RefactoringAction 1474632660137 TestBowling.java RENAME oneGame/2=>BowlingGame oneStrikeGame FIELD
 EditAction 1474632746657 TestBowling.java 2353 6 48 4
+UnitTestCaseAction 1474632750456 TestBowling.java OK
+UnitTestSessionAction 1474632750456 TestBowling.java OK
+EditAction 1474632798225 TestBowling.java 2359 6 48 4
