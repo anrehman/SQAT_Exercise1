@@ -225,4 +225,6 @@ public class TestBowling {
 		secondGame.setBonus(7, 0);
 		assertEquals("Two Spare Game Score Test: ", 90, secondGame.score());
 	}
+	
+	
 }
