@@ -111,3 +111,14 @@ RefactoringAction 1474633408135 TestBowling.java RENAME Game=>BowlingGame second
 RefactoringAction 1474633408474 TestBowling.java RENAME secondGame=>BowlingGame oneStrikeGame FIELD
 RefactoringAction 1474633409080 TestBowling.java RENAME oneStrikeGame=>BowlingGame secondGame FIELD
 EditAction 1474633409082 TestBowling.java 3281 8 71 6
+UnitTestCaseAction 1474633414810 TestBowling.java OK
+UnitTestSessionAction 1474633414810 TestBowling.java OK
+RefactoringAction 1474633451207 TestBowling.java ADD void test FIELD
+RefactoringAction 1474633455221 TestBowling.java RENAME test=>void testBowling FIELD
+RefactoringAction 1474633456734 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474633459248 TestBowling.java RENAME testBowling_=>void testBowling_game FIELD
+RefactoringAction 1474633462265 TestBowling.java RENAME testBowling_game=>void testBowling_gameWithLess FIELD
+RefactoringAction 1474633463279 TestBowling.java RENAME testBowling_gameWithLess=>void testBowling_gameWithLessFre FIELD
+RefactoringAction 1474633466294 TestBowling.java RENAME testBowling_gameWithLessFre=>void testBowling_gameWithLessFrames FIELD
+RefactoringAction 1474633467809 TestBowling.java RENAME testBowling_gameWithLessFrames=>void testBowling_gameWithLessFrames() METHOD
+EditAction 1474633508914 TestBowling.java 3695 9 80 6
