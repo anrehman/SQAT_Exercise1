@@ -29,3 +29,18 @@ EditAction 1474631577202 TestBowling.java 1108 2 24 1
 UnitTestCaseAction 1474631587540 TestBowling.java OK
 UnitTestSessionAction 1474631587540 TestBowling.java OK
 EditAction 1474631814441 BowlingGame.java 823 4 4 0
+RefactoringAction 1474631837853 TestBowling.java ADD void test FIELD
+RefactoringAction 1474631839866 TestBowling.java RENAME test=>void testBow FIELD
+RefactoringAction 1474631842884 TestBowling.java RENAME testBow=>void testBowling FIELD
+RefactoringAction 1474631844899 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474631848914 TestBowling.java RENAME testBowling_=>void testBowling_single FIELD
+RefactoringAction 1474631850427 TestBowling.java RENAME testBowling_single=>void testBowling_s FIELD
+RefactoringAction 1474631851942 TestBowling.java RENAME testBowling_s=>void testBowling_scro FIELD
+RefactoringAction 1474631854457 TestBowling.java RENAME testBowling_scro=>void testBowling_scr FIELD
+RefactoringAction 1474631856971 TestBowling.java RENAME testBowling_scr=>void testBowling_game FIELD
+RefactoringAction 1474631859485 TestBowling.java RENAME testBowling_game=>void testBowling_gameScore FIELD
+RefactoringAction 1474631861499 TestBowling.java RENAME testBowling_gameScore=>void testBowling_gameScoreChec FIELD
+RefactoringAction 1474631863013 TestBowling.java RENAME testBowling_gameScoreChec=>void testBowling_gameScoreCheck() METHOD
+RefactoringAction 1474631930079 TestBowling.java ADD import org.junit.Before IMPORT
+RefactoringAction 1474631944225 TestBowling.java ADD void initializeGame() METHOD
+EditAction 1474631988245 TestBowling.java 1275 4 24 1
