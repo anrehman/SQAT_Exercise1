@@ -108,7 +108,7 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
 		secondGame.addFrame(oneFrame);
-		assertEquals("One Spare Game Score Test: ", secondGame.score(), 88);
+		assertEquals("One Spare Game Score Test: ", 88, secondGame.score());
 	}
 
 	@Test(expected = BowlingException.class)
