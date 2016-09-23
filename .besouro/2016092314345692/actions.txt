@@ -244,3 +244,6 @@ EditAction 1474635418922 TestBowling.java 9561 16 231 13
 UnitTestCaseAction 1474635423274 TestBowling.java FAIL
 UnitTestSessionAction 1474635423274 TestBowling.java FAIL
 EditAction 1474635582864 BowlingGame.java 1906 4 5 0
+UnitTestCaseAction 1474635600251 TestBowling.java FAIL
+UnitTestSessionAction 1474635600252 TestBowling.java FAIL
+EditAction 1474635648538 BowlingGame.java 1930 4 5 0
