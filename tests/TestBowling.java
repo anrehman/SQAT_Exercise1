@@ -277,4 +277,30 @@ public class TestBowling {
 		secondGame.setBonus(10, 0);
 		assertEquals("Last Frame Spare Game Score Test: ", 93, secondGame.score());
 	}
+	
+	@Test
+	public void testBowling_bestScore() throws BowlingException{
+		Frame oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		secondGame.setBonus(10, 10);
+		assertEquals("Last Frame Spare Game Score Test: ", 93, secondGame.score());
+	}
 }

@@ -220,3 +220,12 @@ RefactoringAction 1474635148666 TestBowling.java RENAME testBowling=>void testBo
 RefactoringAction 1474635152688 TestBowling.java RENAME testBowling_=>void testBowling_bonusStrike FIELD
 RefactoringAction 1474635154206 TestBowling.java RENAME testBowling_bonusStrike=>void testBowling_bonusStrike() METHOD
 EditAction 1474635181428 TestBowling.java 8705 15 209 12
+UnitTestCaseAction 1474635185185 TestBowling.java OK
+UnitTestSessionAction 1474635185185 TestBowling.java OK
+RefactoringAction 1474635200435 TestBowling.java ADD void test FIELD
+RefactoringAction 1474635202452 TestBowling.java RENAME test=>void testBowling FIELD
+RefactoringAction 1474635203969 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474635207487 TestBowling.java RENAME testBowling_=>void testBowling_best FIELD
+RefactoringAction 1474635209506 TestBowling.java RENAME testBowling_best=>void testBowling_bestScore FIELD
+RefactoringAction 1474635210526 TestBowling.java RENAME testBowling_bestScore=>void testBowling_bestScore() METHOD
+EditAction 1474635268634 TestBowling.java 9560 16 231 13
