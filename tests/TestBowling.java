@@ -328,4 +328,29 @@ public class TestBowling {
 		secondGame.setBonus(10, 0);
 		assertEquals("Real Game Score Test: ", 135, secondGame.score());
 	}
+
+	@Test(expected = BowlingException.class)
+	public void testBowling_nullBonus() throws BowlingException {
+		Frame oneFrame = new Frame(1, 5);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 2);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 4);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(5, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 5);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 1);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(2, 8);
+		secondGame.addFrame(oneFrame);
+		secondGame.score();
+	}
 }
