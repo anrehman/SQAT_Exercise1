@@ -203,3 +203,6 @@ RefactoringAction 1474634981206 TestBowling.java RENAME testBowling_stri=>void t
 RefactoringAction 1474634985736 TestBowling.java RENAME testBowling_strike=>void testBowling_strikeAsLastFrame FIELD
 RefactoringAction 1474634989281 TestBowling.java RENAME testBowling_strikeAsLastFrame=>void testBowling_strikeAsLastFrame() METHOD
 EditAction 1474635049636 TestBowling.java 7844 14 187 11
+UnitTestCaseAction 1474635067855 TestBowling.java OK
+UnitTestSessionAction 1474635067855 TestBowling.java OK
+EditAction 1474635076485 TestBowling.java 7845 14 187 11
