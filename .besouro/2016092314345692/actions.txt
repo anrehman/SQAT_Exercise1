@@ -46,3 +46,6 @@ RefactoringAction 1474631944225 TestBowling.java ADD void initializeGame() METHO
 EditAction 1474631988245 TestBowling.java 1275 4 24 1
 EditAction 1474632055907 TestBowling.java 1275 4 24 1
 EditAction 1474632082982 TestBowling.java 1332 4 25 2
+UnitTestCaseAction 1474632087235 TestBowling.java OK
+UnitTestSessionAction 1474632087235 TestBowling.java OK
+EditAction 1474632222581 Frame.java 719 6 7 0
