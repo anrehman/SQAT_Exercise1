@@ -265,3 +265,14 @@ EditAction 1474635845438 TestBowling.java 10397 17 253 14
 UnitTestCaseAction 1474635848968 TestBowling.java OK
 UnitTestSessionAction 1474635848969 TestBowling.java OK
 EditAction 1474635877351 TestBowling.java 10385 17 253 14
+UnitTestCaseAction 1474635883420 TestBowling.java OK
+UnitTestSessionAction 1474635883421 TestBowling.java OK
+RefactoringAction 1474635987089 BowlingGame.java ADD int strik FIELD
+RefactoringAction 1474635988103 BowlingGame.java RENAME strik=>int strike FIELD
+RefactoringAction 1474635993128 BowlingGame.java RENAME strike=>int strikeScore FIELD
+RefactoringAction 1474635995142 BowlingGame.java RENAME strikeScore=>int strikeScoreC FIELD
+RefactoringAction 1474635996155 BowlingGame.java RENAME strikeScoreC=>int strikeScore FIELD
+RefactoringAction 1474635998168 BowlingGame.java RENAME strikeScore=>int strikeScore() METHOD
+RefactoringAction 1474636017237 BowlingGame.java RENAME strikeScore()=>int strikeScore(int) METHOD
+RefactoringAction 1474636019751 BowlingGame.java RENAME strikeScore(int)=>int strikeScore(int, int) METHOD
+EditAction 1474636082441 BowlingGame.java 2095 5 7 0

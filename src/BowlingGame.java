@@ -32,25 +32,7 @@ public class BowlingGame {
 		if (frames.size() == 10) {
 			for (int loop = 0; loop < frames.size(); loop++) {
 				if (frames.get(loop).isStrike()) {
-					if (loop == (frames.size() - 1)) {
-						if (bonus != null)
-							sum = sum + STRIKE_SCORE + bonus.score();
-						else
-							throw new BowlingException();
-					} else {
-						if (frames.get(loop + 1).isStrike()) {
-							if (loop + 2 < frames.size())
-								sum = sum + STRIKE_SCORE + STRIKE_SCORE + frames.get(loop + 2).getFirstThrow();
-							else {
-								if (bonus != null)
-									sum = sum + STRIKE_SCORE + STRIKE_SCORE + bonus.getFirstThrow();
-								else
-									throw new BowlingException();
-							}
-						} else {
-							sum = sum + STRIKE_SCORE + frames.get(loop + 1).score();
-						}
-					}
+					sum = strikeScore(loop, sum);
 				} else if (frames.get(loop).isSpare()) {
 					if (loop == (frames.size() - 1)) {
 						if (bonus != null)
@@ -66,6 +48,29 @@ public class BowlingGame {
 		} else
 			throw new BowlingException();
 
+		return sum;
+	}
+
+	public int strikeScore(int loop, int sum) throws BowlingException {
+		if (loop == (frames.size() - 1)) {
+			if (bonus != null)
+				sum = sum + STRIKE_SCORE + bonus.score();
+			else
+				throw new BowlingException();
+		} else {
+			if (frames.get(loop + 1).isStrike()) {
+				if (loop + 2 < frames.size())
+					sum = sum + STRIKE_SCORE + STRIKE_SCORE + frames.get(loop + 2).getFirstThrow();
+				else {
+					if (bonus != null)
+						sum = sum + STRIKE_SCORE + STRIKE_SCORE + bonus.getFirstThrow();
+					else
+						throw new BowlingException();
+				}
+			} else {
+				sum = sum + STRIKE_SCORE + frames.get(loop + 1).score();
+			}
+		}
 		return sum;
 	}
 }
