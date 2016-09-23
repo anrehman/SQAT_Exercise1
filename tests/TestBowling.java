@@ -6,6 +6,7 @@ import org.junit.Test;
 public class TestBowling {
 
 	BowlingGame oneGame = new BowlingGame();
+	BowlingGame oneStrikeGame = new BowlingGame();
 
 	@Before
 	public void initializeGame() throws BowlingException {
@@ -52,5 +53,30 @@ public class TestBowling {
 	public void testBowling_isStrike() {
 		Frame oneFrame = new Frame(10, 0);
 		assertTrue(oneFrame.isStrike());
+	}
+	
+	@Test
+	public void testBowling_strikeScoreGame() throws BowlingException{
+		Frame oneFrame = new Frame(10, 0);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 2);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 4);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(5, 3);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 3);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 5);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 1);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(2, 6);
+		oneStrikeGame.addFrame(oneFrame);
+		assertEquals("One Strike Game Score Test: ", oneStrikeGame.score(), 94);
 	}
 }

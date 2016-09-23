@@ -60,3 +60,13 @@ RefactoringAction 1474632497649 BowlingGame.java RENAME stri=>int strikeScore FI
 RefactoringAction 1474632502681 BowlingGame.java RENAME strikeScore=>int STRIKE FIELD
 RefactoringAction 1474632505696 BowlingGame.java RENAME STRIKE=>int STRIKE_SCORE FIELD
 EditAction 1474632590057 BowlingGame.java 1017 4 4 0
+RefactoringAction 1474632608457 TestBowling.java ADD void test FIELD
+RefactoringAction 1474632612528 TestBowling.java RENAME test=>void testBowling FIELD
+RefactoringAction 1474632614541 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474632619054 TestBowling.java RENAME testBowling_=>void testBowling_stri FIELD
+RefactoringAction 1474632621568 TestBowling.java RENAME testBowling_stri=>void testBowling_strikeScore FIELD
+RefactoringAction 1474632623083 TestBowling.java RENAME testBowling_strikeScore=>void testBowling_strikeScoreGame FIELD
+RefactoringAction 1474632624596 TestBowling.java RENAME testBowling_strikeScoreGame=>void testBowling_strikeScoreGame() METHOD
+RefactoringAction 1474632653623 TestBowling.java ADD BowlingGame oneGame/2 FIELD
+RefactoringAction 1474632660137 TestBowling.java RENAME oneGame/2=>BowlingGame oneStrikeGame FIELD
+EditAction 1474632746657 TestBowling.java 2353 6 48 4
