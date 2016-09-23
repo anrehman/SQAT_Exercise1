@@ -42,7 +42,10 @@ public class BowlingGame {
 							if (loop + 2 < frames.size())
 								sum = sum + STRIKE_SCORE + STRIKE_SCORE + frames.get(loop + 2).getFirstThrow();
 							else {
-								sum = sum + STRIKE_SCORE + STRIKE_SCORE + bonus.getFirstThrow();
+								if (bonus != null)
+									sum = sum + STRIKE_SCORE + STRIKE_SCORE + bonus.getFirstThrow();
+								else
+									throw new BowlingException();
 							}
 						} else {
 							sum = sum + STRIKE_SCORE + frames.get(loop + 1).score();
