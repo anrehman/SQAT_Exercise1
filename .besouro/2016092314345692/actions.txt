@@ -262,3 +262,6 @@ RefactoringAction 1474635742703 TestBowling.java RENAME testBowling_realGameScor
 EditAction 1474635829974 TestBowling.java 10408 17 253 14
 EditAction 1474635831272 TestBowling.java 10409 17 253 14
 EditAction 1474635845438 TestBowling.java 10397 17 253 14
+UnitTestCaseAction 1474635848968 TestBowling.java OK
+UnitTestSessionAction 1474635848969 TestBowling.java OK
+EditAction 1474635877351 TestBowling.java 10385 17 253 14
