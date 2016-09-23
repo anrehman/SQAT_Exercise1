@@ -233,3 +233,5 @@ EditAction 1474635275767 TestBowling.java 9561 16 231 13
 UnitTestCaseAction 1474635279810 TestBowling.java FAIL
 UnitTestSessionAction 1474635279811 TestBowling.java FAIL
 EditAction 1474635333466 BowlingGame.java 1768 4 5 0
+RefactoringAction 1474635367997 Frame.java RENAME isStrike()=>boolean frames FIELD
+EditAction 1474635384264 BowlingGame.java 1800 4 5 0

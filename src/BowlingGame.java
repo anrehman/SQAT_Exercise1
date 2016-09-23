@@ -32,7 +32,7 @@ public class BowlingGame {
 		if (frames.size() == 10) {
 			for (int loop = 0; loop < frames.size(); loop++) {
 				if (frames.get(loop).isStrike()) {
-					if (loop == 9) {
+					if (loop == (frames.size()-1)) {
 						if (bonus != null)
 							sum = sum + STRIKE_SCORE + bonus.score();
 						else
@@ -45,7 +45,7 @@ public class BowlingGame {
 						}
 					}
 				} else if (frames.get(loop).isSpare()) {
-					if (loop == 9) {
+					if (loop == (frames.size()-1)) {
 						if (bonus != null)
 							sum = sum + STRIKE_SCORE + bonus.getFirstThrow();
 						else
