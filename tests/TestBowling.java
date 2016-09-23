@@ -146,7 +146,7 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
 		secondGame.addFrame(oneFrame);
-		assertEquals("Strike Spare Game Score Test: ", secondGame.score(), 103);
+		assertEquals("Strike Spare Game Score Test: ", 103, secondGame.score());
 	}
 
 	@Test
