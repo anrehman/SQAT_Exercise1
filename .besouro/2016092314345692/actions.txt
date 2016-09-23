@@ -26,3 +26,6 @@ FileOpenedAction 1474631552945 TennisGameTest.java 5115 15 72 11
 FileOpenedAction 1474631562837 TennisGameTest.java 5115 15 72 11
 RefactoringAction 1474631576237 TestBowling.java ADD import org.junit.Assert.* IMPORT
 EditAction 1474631577202 TestBowling.java 1108 2 24 1
+UnitTestCaseAction 1474631587540 TestBowling.java OK
+UnitTestSessionAction 1474631587540 TestBowling.java OK
+EditAction 1474631814441 BowlingGame.java 823 4 4 0

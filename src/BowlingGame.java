@@ -14,7 +14,7 @@ public class BowlingGame {
 
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException {
-		if (frames.size() < 10)
+		if (frames.size() < 10 && frame.getFirstThrow() >= 0 && frame.getSecondThrow() >= 0)
 			frames.add(frame);
 		else
 			throw new BowlingException();
@@ -27,7 +27,10 @@ public class BowlingGame {
 
 	// Returns the game score
 	public int score() {
-		// to be implemented: should return game score
-		return 0;
+		int sum = 0;
+		for (Frame oneFrame : frames) {
+			sum = sum + oneFrame.score();
+		}
+		return sum;
 	}
 }
