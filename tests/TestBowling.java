@@ -148,4 +148,29 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		assertEquals("Strike Spare Game Score Test: ", secondGame.score(), 103);
 	}
+	
+	@Test
+	public void testBowling_twoStrikeGameScore() throws BowlingException {
+		Frame oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 2);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 4);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(5, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 5);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 1);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(2, 6);
+		secondGame.addFrame(oneFrame);
+		assertEquals("Two Strike Game Score Test: ", secondGame.score(), 112);
+	}
 }
