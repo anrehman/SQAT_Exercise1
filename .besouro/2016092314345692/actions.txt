@@ -251,3 +251,12 @@ UnitTestCaseAction 1474635663454 TestBowling.java OK
 UnitTestSessionAction 1474635663455 TestBowling.java OK
 EditAction 1474635682913 BowlingGame.java 1942 4 5 0
 EditAction 1474635699658 BowlingGame.java 2025 4 5 0
+UnitTestCaseAction 1474635706705 TestBowling.java OK
+UnitTestSessionAction 1474635706705 TestBowling.java OK
+RefactoringAction 1474635732600 TestBowling.java ADD void testBowling FIELD
+RefactoringAction 1474635734121 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474635737145 TestBowling.java RENAME testBowling_=>void testBowling_real FIELD
+RefactoringAction 1474635739664 TestBowling.java RENAME testBowling_real=>void testBowling_realGame FIELD
+RefactoringAction 1474635741683 TestBowling.java RENAME testBowling_realGame=>void testBowling_realGameScore FIELD
+RefactoringAction 1474635742703 TestBowling.java RENAME testBowling_realGameScore=>void testBowling_realGameScore() METHOD
+EditAction 1474635829974 TestBowling.java 10408 17 253 14

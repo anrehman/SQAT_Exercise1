@@ -198,10 +198,9 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		assertEquals("Two Spare Game Score Test: ", 98, secondGame.score());
 	}
-	
+
 	@Test
-	public void testBowling_spareAsLastFrame() throws BowlingException
-	{
+	public void testBowling_spareAsLastFrame() throws BowlingException {
 		Frame oneFrame = new Frame(1, 5);
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
@@ -225,9 +224,9 @@ public class TestBowling {
 		secondGame.setBonus(7, 0);
 		assertEquals("Last Frame Spare Game Score Test: ", 90, secondGame.score());
 	}
-	
+
 	@Test
-	public void testBowling_strikeAsLastFrame() throws BowlingException{
+	public void testBowling_strikeAsLastFrame() throws BowlingException {
 		Frame oneFrame = new Frame(1, 5);
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
@@ -251,9 +250,9 @@ public class TestBowling {
 		secondGame.setBonus(7, 2);
 		assertEquals("Last Frame Strike Game Score Test: ", 92, secondGame.score());
 	}
-	
+
 	@Test
-	public void testBowling_bonusStrike() throws BowlingException{
+	public void testBowling_bonusStrike() throws BowlingException {
 		Frame oneFrame = new Frame(1, 5);
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
@@ -277,9 +276,9 @@ public class TestBowling {
 		secondGame.setBonus(10, 0);
 		assertEquals("Last Frame Spare Game Score Test: ", 93, secondGame.score());
 	}
-	
+
 	@Test
-	public void testBowling_bestScore() throws BowlingException{
+	public void testBowling_bestScore() throws BowlingException {
 		Frame oneFrame = new Frame(10, 0);
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(10, 0);
@@ -301,6 +300,32 @@ public class TestBowling {
 		oneFrame = new Frame(10, 0);
 		secondGame.addFrame(oneFrame);
 		secondGame.setBonus(10, 10);
+		assertEquals("Last Frame Spare Game Score Test: ", 300, secondGame.score());
+	}
+
+	@Test
+	public void testBowling_realGameScore() throws BowlingException {
+		Frame oneFrame = new Frame(6, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 1);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 2);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 2);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(6, 2);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 3);
+		secondGame.addFrame(oneFrame);
+		secondGame.setBonus(10,0);
 		assertEquals("Last Frame Spare Game Score Test: ", 300, secondGame.score());
 	}
 }
