@@ -39,7 +39,7 @@ public class BowlingGame {
 					}
 				} else if (frames.get(loop).isSpare()) {
 					if (loop == 9)
-						sum = sum + STRIKE_SCORE + frames.get(loop + 1).getFirstThrow();
+						sum = sum + STRIKE_SCORE + bonus.getFirstThrow();
 					else
 						sum = sum + STRIKE_SCORE + frames.get(loop + 1).getFirstThrow();
 				} else {
