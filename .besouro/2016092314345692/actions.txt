@@ -125,3 +125,6 @@ EditAction 1474633508914 TestBowling.java 3695 9 80 6
 UnitTestCaseAction 1474633515463 TestBowling.java OK
 UnitTestSessionAction 1474633515463 TestBowling.java OK
 EditAction 1474633526465 TestBowling.java 3693 9 80 6
+UnitTestCaseAction 1474633530539 TestBowling.java OK
+UnitTestSessionAction 1474633530540 TestBowling.java OK
+EditAction 1474633542629 TestBowling.java 3699 9 80 6
