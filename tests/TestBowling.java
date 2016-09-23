@@ -249,6 +249,6 @@ public class TestBowling {
 		oneFrame = new Frame(10, 0);
 		secondGame.addFrame(oneFrame);
 		secondGame.setBonus(7, 2);
-		assertEquals("Two Strike Game Score Test: ", 92, secondGame.score());
+		assertEquals("Last Frame Strike Game Score Test: ", 92, secondGame.score());
 	}
 }
