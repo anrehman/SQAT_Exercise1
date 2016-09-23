@@ -6,7 +6,7 @@ import org.junit.Test;
 public class TestBowling {
 
 	BowlingGame oneGame = new BowlingGame();
-	BowlingGame oneStrikeGame = new BowlingGame();
+	BowlingGame secondGame = new BowlingGame();
 
 	@Before
 	public void initializeGame() throws BowlingException {
@@ -58,26 +58,26 @@ public class TestBowling {
 	@Test
 	public void testBowling_strikeScoreGame() throws BowlingException{
 		Frame oneFrame = new Frame(10, 0);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(7, 2);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(4, 4);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(5, 3);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 3);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(4, 5);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(8, 1);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
-		oneStrikeGame.addFrame(oneFrame);
-		assertEquals("One Strike Game Score Test: ", oneStrikeGame.score(), 94);
+		secondGame.addFrame(oneFrame);
+		assertEquals("One Strike Game Score Test: ", secondGame.score(), 94);
 	}
 	
 	@Test
@@ -89,25 +89,25 @@ public class TestBowling {
 	@Test
 	public void testBowling_spareGameScore() throws BowlingException{
 		Frame oneFrame = new Frame(1, 9);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(7, 2);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(4, 4);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(5, 3);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 3);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(4, 5);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(8, 1);
-		oneStrikeGame.addFrame(oneFrame);
+		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
-		oneStrikeGame.addFrame(oneFrame);
-		assertEquals("One Spare Game Score Test: ", oneStrikeGame.score(), 88);
+		secondGame.addFrame(oneFrame);
+		assertEquals("One Spare Game Score Test: ", secondGame.score(), 88);
 	}
 }
