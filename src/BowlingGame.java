@@ -34,7 +34,7 @@ public class BowlingGame {
 				if (frames.get(loop).isStrike()) {
 					sum = strikeScore(loop, sum);
 				} else if (frames.get(loop).isSpare()) {
-					
+					sum = spareScore(loop, sum);
 				} else {
 					sum = sum + frames.get(loop).score();
 				}
@@ -67,8 +67,8 @@ public class BowlingGame {
 		}
 		return sum;
 	}
-	
-	public int spareScore(int loop, int sum) throws BowlingException{
+
+	public int spareScore(int loop, int sum) throws BowlingException {
 		if (loop == (frames.size() - 1)) {
 			if (bonus != null)
 				sum = sum + STRIKE_SCORE + bonus.getFirstThrow();
@@ -76,7 +76,7 @@ public class BowlingGame {
 				throw new BowlingException();
 		} else
 			sum = sum + STRIKE_SCORE + frames.get(loop + 1).getFirstThrow();
-		
+
 		return sum;
 	}
 }

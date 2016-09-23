@@ -282,3 +282,4 @@ RefactoringAction 1474636104987 BowlingGame.java ADD void spareScore FIELD
 RefactoringAction 1474636108001 BowlingGame.java RENAME spareScore=>void spareScore(int) METHOD
 RefactoringAction 1474636111015 BowlingGame.java RENAME spareScore(int)=>void spareScore(int, int) METHOD
 EditAction 1474636149267 BowlingGame.java 2175 6 9 0
+EditAction 1474636165062 BowlingGame.java 2201 6 9 0
