@@ -48,4 +48,9 @@ public class TestBowling {
 		assertEquals("Game Score Test: ", oneGame.score(), 81);
 	}
 
+	@Test
+	public void testBowling_isStrike() {
+		Frame oneFrame = new Frame(10, 0);
+		assertTrue(oneFrame.isStrike());
+	}
 }

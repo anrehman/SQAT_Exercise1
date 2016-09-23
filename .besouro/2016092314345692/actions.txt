@@ -49,3 +49,7 @@ EditAction 1474632082982 TestBowling.java 1332 4 25 2
 UnitTestCaseAction 1474632087235 TestBowling.java OK
 UnitTestSessionAction 1474632087235 TestBowling.java OK
 EditAction 1474632222581 Frame.java 719 6 7 0
+RefactoringAction 1474632236688 TestBowling.java ADD void testBowling_gameScoreCheck()/2 METHOD
+RefactoringAction 1474632243703 TestBowling.java RENAME testBowling_gameScoreCheck()/2=>void testBowling_isStri() METHOD
+RefactoringAction 1474632244718 TestBowling.java RENAME testBowling_isStri()=>void testBowling_isStrike() METHOD
+EditAction 1474632321343 TestBowling.java 1457 5 27 3
