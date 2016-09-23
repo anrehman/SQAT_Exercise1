@@ -29,7 +29,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score() throws BowlingException {
 		int sum = 0;
-		if (frames.size() >= 10) {
+		if (frames.size() == 10) {
 			for (int loop = 0; loop < frames.size(); loop++) {
 				if (frames.get(loop).isStrike()) {
 					if (loop == 9) {

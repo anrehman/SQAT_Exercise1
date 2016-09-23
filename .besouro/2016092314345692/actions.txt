@@ -230,3 +230,6 @@ RefactoringAction 1474635209506 TestBowling.java RENAME testBowling_best=>void t
 RefactoringAction 1474635210526 TestBowling.java RENAME testBowling_bestScore=>void testBowling_bestScore() METHOD
 EditAction 1474635268634 TestBowling.java 9560 16 231 13
 EditAction 1474635275767 TestBowling.java 9561 16 231 13
+UnitTestCaseAction 1474635279810 TestBowling.java FAIL
+UnitTestSessionAction 1474635279811 TestBowling.java FAIL
+EditAction 1474635333466 BowlingGame.java 1768 4 5 0
