@@ -291,3 +291,6 @@ RefactoringAction 1474636216081 TestBowling.java RENAME testBowling_=>void testB
 RefactoringAction 1474636218100 TestBowling.java RENAME testBowling_null=>void testBowling_nullBonus FIELD
 RefactoringAction 1474636219118 TestBowling.java RENAME testBowling_nullBonus=>void testBowling_nullBonus() METHOD
 EditAction 1474636266193 TestBowling.java 11177 18 274 14
+UnitTestCaseAction 1474636270108 TestBowling.java OK
+UnitTestSessionAction 1474636270108 TestBowling.java OK
+FileOpenedAction 1474636345074 Frame.java 768 6 7 0
