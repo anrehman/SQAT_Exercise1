@@ -146,3 +146,7 @@ RefactoringAction 1474633839962 TestBowling.java RENAME testBowling_twoStrikeTes
 RefactoringAction 1474633884176 TestBowling.java RENAME testBowling_twoStrikeTest()=>void testBowling_twoStrikeGameTest() METHOD
 RefactoringAction 1474633891692 TestBowling.java RENAME testBowling_twoStrikeGameTest()=>void testBowling_twoStrikeGameScore() METHOD
 EditAction 1474633899278 TestBowling.java 5341 11 122 8
+UnitTestCaseAction 1474633904490 TestBowling.java FAIL
+UnitTestSessionAction 1474633904490 TestBowling.java FAIL
+FileOpenedAction 1474633959493 TennisGameTest.java 5115 15 72 11
+EditAction 1474633973998 TestBowling.java 5340 11 122 8
