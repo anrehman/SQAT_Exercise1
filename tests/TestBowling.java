@@ -223,7 +223,7 @@ public class TestBowling {
 		oneFrame = new Frame(2, 8);
 		secondGame.addFrame(oneFrame);
 		secondGame.setBonus(7, 0);
-		assertEquals("Two Spare Game Score Test: ", 90, secondGame.score());
+		assertEquals("Last Frame Spare Game Score Test: ", 90, secondGame.score());
 	}
 	
 	@Test
