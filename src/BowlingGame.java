@@ -32,20 +32,23 @@ public class BowlingGame {
 		if (frames.size() == 10) {
 			for (int loop = 0; loop < frames.size(); loop++) {
 				if (frames.get(loop).isStrike()) {
-					if (loop == (frames.size()-1)) {
+					if (loop == (frames.size() - 1)) {
 						if (bonus != null)
 							sum = sum + STRIKE_SCORE + bonus.score();
 						else
 							throw new BowlingException();
 					} else {
 						if (frames.get(loop + 1).isStrike()) {
-							sum = sum + STRIKE_SCORE + STRIKE_SCORE + frames.get(loop + 2).getFirstThrow();
+							if (loop + 2 < frames.size())
+								sum = sum + STRIKE_SCORE + STRIKE_SCORE + frames.get(loop + 2).getFirstThrow();
+							else
+								sum = sum + STRIKE_SCORE + STRIKE_SCORE;
 						} else {
 							sum = sum + STRIKE_SCORE + frames.get(loop + 1).score();
 						}
 					}
 				} else if (frames.get(loop).isSpare()) {
-					if (loop == (frames.size()-1)) {
+					if (loop == (frames.size() - 1)) {
 						if (bonus != null)
 							sum = sum + STRIKE_SCORE + bonus.getFirstThrow();
 						else
