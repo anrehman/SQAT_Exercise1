@@ -11,3 +11,4 @@
 1474633668122 test-addition 1 125 true
 1474634083654 test-last 1 275 false
 1474634209817 test-addition 1 65 false
+1474634234169 regression 1 4 true

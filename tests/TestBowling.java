@@ -46,7 +46,7 @@ public class TestBowling {
 
 	@Test
 	public void testBowling_gameScoreCheck() throws BowlingException {
-		assertEquals("Game Score Test: ", oneGame.score(), 81);
+		assertEquals("Game Score Test: ", 81, oneGame.score());
 	}
 
 	@Test
