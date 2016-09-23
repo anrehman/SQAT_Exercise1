@@ -77,7 +77,7 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
 		secondGame.addFrame(oneFrame);
-		assertEquals("One Strike Game Score Test: ", secondGame.score(), 94);
+		assertEquals("One Strike Game Score Test: ", 94, secondGame.score());
 	}
 
 	@Test
@@ -123,9 +123,9 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		secondGame.score();
 	}
-	
-	@Test 
-	public void testBowling_strikeSpareGameScoreCheck() throws BowlingException{
+
+	@Test
+	public void testBowling_strikeSpareGameScoreCheck() throws BowlingException {
 		Frame oneFrame = new Frame(10, 0);
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(4, 6);
@@ -148,7 +148,7 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		assertEquals("Strike Spare Game Score Test: ", secondGame.score(), 103);
 	}
-	
+
 	@Test
 	public void testBowling_twoStrikeGameScore() throws BowlingException {
 		Frame oneFrame = new Frame(10, 0);
@@ -171,9 +171,9 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
 		secondGame.addFrame(oneFrame);
-		assertEquals("Two Strike Game Score Test: ",112, secondGame.score());
+		assertEquals("Two Strike Game Score Test: ", 112, secondGame.score());
 	}
-	
+
 	@Test
 	public void testBowling_twoSpareGameScore() throws BowlingException {
 		Frame oneFrame = new Frame(8, 2);
@@ -196,6 +196,6 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(2, 6);
 		secondGame.addFrame(oneFrame);
-		assertEquals("Two Spare Game Score Test: ",98, secondGame.score());
+		assertEquals("Two Spare Game Score Test: ", 98, secondGame.score());
 	}
 }
