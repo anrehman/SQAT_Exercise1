@@ -86,4 +86,5 @@ public class TestBowling {
 		assertTrue(oneFrame.isSpare());
 	}
 	
+	
 }
