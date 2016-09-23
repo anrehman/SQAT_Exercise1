@@ -124,5 +124,28 @@ public class TestBowling {
 		secondGame.score();
 	}
 	
-	
+	@Test 
+	public void testBowling_strikeSpareGameScoreCheck() throws BowlingException{
+		Frame oneFrame = new Frame(10, 0);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 6);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 2);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 4);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(5, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 3);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 5);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 1);
+		secondGame.addFrame(oneFrame);
+		oneFrame = new Frame(2, 6);
+		secondGame.addFrame(oneFrame);
+		assertEquals("Strike Spare Game Score Test: ", secondGame.score(), 103);
+	}
 }
