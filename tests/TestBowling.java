@@ -45,7 +45,7 @@ public class TestBowling {
 
 	@Test
 	public void testBowling_gameScoreCheck() {
-
+		assertEquals("Game Score Test: ", oneGame.score(), 81);
 	}
 
 }
