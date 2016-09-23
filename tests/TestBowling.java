@@ -1,3 +1,5 @@
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class TestBowling {
@@ -28,6 +30,12 @@ public class TestBowling {
 		oneGame.addFrame(oneFrame);
 		oneFrame = new Frame(1, 2);
 		oneGame.addFrame(oneFrame);
+	}
+	
+	@Test
+	public void testBowling_singleFrameSum() {
+		Frame oneFrame = new Frame(2, 3);
+		assertEquals("Single Frame Score Test: ",oneFrame.score(),5);
 	}
 
 }

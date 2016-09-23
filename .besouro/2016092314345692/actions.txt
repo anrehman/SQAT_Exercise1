@@ -18,3 +18,11 @@ UnitTestCaseAction 1474631286698 TestBowling.java OK
 UnitTestSessionAction 1474631286699 TestBowling.java OK
 RefactoringAction 1474631298984 TestBowling.java REMOVE import org.junit.Assert.* IMPORT
 EditAction 1474631404322 Frame.java 687 6 7 0
+RefactoringAction 1474631427615 TestBowling.java ADD void testBowling FIELD
+RefactoringAction 1474631429131 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474631437147 TestBowling.java RENAME testBowling_=>void testBowling_singleFrameSum FIELD
+RefactoringAction 1474631438662 TestBowling.java RENAME testBowling_singleFrameSum=>void testBowling_singleFrameSum() METHOD
+FileOpenedAction 1474631552945 TennisGameTest.java 5115 15 72 11
+FileOpenedAction 1474631562837 TennisGameTest.java 5115 15 72 11
+RefactoringAction 1474631576237 TestBowling.java ADD import org.junit.Assert.* IMPORT
+EditAction 1474631577202 TestBowling.java 1108 2 24 1
