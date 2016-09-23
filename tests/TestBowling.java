@@ -45,7 +45,7 @@ public class TestBowling {
 	}
 
 	@Test
-	public void testBowling_gameScoreCheck() {
+	public void testBowling_gameScoreCheck() throws BowlingException {
 		assertEquals("Game Score Test: ", oneGame.score(), 81);
 	}
 
@@ -86,5 +86,28 @@ public class TestBowling {
 		assertTrue(oneFrame.isSpare());
 	}
 	
-	
+	@Test
+	public void testBowling_spareGameScore() throws BowlingException{
+		Frame oneFrame = new Frame(1, 9);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(7, 2);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 6);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 4);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(5, 3);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(3, 3);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(4, 5);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(8, 1);
+		oneStrikeGame.addFrame(oneFrame);
+		oneFrame = new Frame(2, 6);
+		oneStrikeGame.addFrame(oneFrame);
+		assertEquals("One Spare Game Score Test: ", oneStrikeGame.score(), 88);
+	}
 }

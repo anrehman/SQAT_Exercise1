@@ -91,3 +91,12 @@ UnitTestSessionAction 1474633078063 TestBowling.java OK
 EditAction 1474633113864 TestBowling.java 2488 7 50 5
 EditAction 1474633158452 BowlingGame.java 1139 4 4 0
 EditAction 1474633246613 BowlingGame.java 1243 4 4 0
+CompilationAction 1474633246724 TestBowling.java
+CompilationAction 1474633287513 TestBowling.java
+RefactoringAction 1474633310401 TestBowling.java ADD void test FIELD
+RefactoringAction 1474633313913 TestBowling.java RENAME test=>void testBowling FIELD
+RefactoringAction 1474633315426 TestBowling.java RENAME testBowling=>void testBowling_ FIELD
+RefactoringAction 1474633326941 TestBowling.java RENAME testBowling_=>void testBowling_spare FIELD
+RefactoringAction 1474633330455 TestBowling.java RENAME testBowling_spare=>void testBowling_spareGameScore FIELD
+RefactoringAction 1474633332968 TestBowling.java RENAME testBowling_spareGameScore=>void testBowling_spareGameScore() METHOD
+EditAction 1474633377192 TestBowling.java 3350 8 71 6
