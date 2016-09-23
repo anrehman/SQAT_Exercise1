@@ -14,3 +14,7 @@ UnitTestCaseAction 1474631270835 TestBowling.java FAIL
 UnitTestSessionAction 1474631270836 TestBowling.java FAIL
 RefactoringAction 1474631277420 TestBowling.java REMOVE test() METHOD
 EditAction 1474631278175 TestBowling.java 949 1 22 0
+UnitTestCaseAction 1474631286698 TestBowling.java OK
+UnitTestSessionAction 1474631286699 TestBowling.java OK
+RefactoringAction 1474631298984 TestBowling.java REMOVE import org.junit.Assert.* IMPORT
+EditAction 1474631404322 Frame.java 687 6 7 0
