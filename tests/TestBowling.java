@@ -121,7 +121,6 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(3, 6);
 		secondGame.addFrame(oneFrame);
-
 		secondGame.score();
 	}
 }
