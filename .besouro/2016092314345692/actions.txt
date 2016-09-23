@@ -44,3 +44,4 @@ RefactoringAction 1474631863013 TestBowling.java RENAME testBowling_gameScoreChe
 RefactoringAction 1474631930079 TestBowling.java ADD import org.junit.Before IMPORT
 RefactoringAction 1474631944225 TestBowling.java ADD void initializeGame() METHOD
 EditAction 1474631988245 TestBowling.java 1275 4 24 1
+EditAction 1474632055907 TestBowling.java 1275 4 24 1
