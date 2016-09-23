@@ -83,7 +83,7 @@ public class TestBowling {
 	@Test
 	public void testBowling_isSpareCheck(){
 		Frame oneFrame = new Frame(4, 6);
-		assertTrue(oneFrame.isStrike());
+		assertTrue(oneFrame.isSpare());
 	}
 	
 }
