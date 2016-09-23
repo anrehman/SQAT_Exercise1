@@ -298,8 +298,6 @@ public class TestBowling {
 		secondGame.addFrame(oneFrame);
 		oneFrame = new Frame(10, 0);
 		secondGame.addFrame(oneFrame);
-		oneFrame = new Frame(10, 0);
-		secondGame.addFrame(oneFrame);
 		secondGame.setBonus(10, 10);
 		assertEquals("Last Frame Spare Game Score Test: ", 300, secondGame.score());
 	}
