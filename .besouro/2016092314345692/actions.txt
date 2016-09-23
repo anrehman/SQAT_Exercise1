@@ -164,3 +164,6 @@ RefactoringAction 1474634161518 TestBowling.java RENAME testBowling_twoSpare=>vo
 RefactoringAction 1474634164034 TestBowling.java RENAME testBowling_twoSpareG=>void testBowling_twoSpareGameScore FIELD
 RefactoringAction 1474634165551 TestBowling.java RENAME testBowling_twoSpareGameScore=>void testBowling_twoSpareGameScore() METHOD
 EditAction 1474634206146 TestBowling.java 6154 12 143 9
+UnitTestCaseAction 1474634209817 TestBowling.java OK
+UnitTestSessionAction 1474634209817 TestBowling.java OK
+EditAction 1474634229858 TestBowling.java 6154 12 143 9

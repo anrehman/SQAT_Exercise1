@@ -41,7 +41,7 @@ public class TestBowling {
 	@Test
 	public void testBowling_singleFrameSum() {
 		Frame oneFrame = new Frame(2, 3);
-		assertEquals("Single Frame Score Test: ", oneFrame.score(), 5);
+		assertEquals("Single Frame Score Test: ", 5, oneFrame.score());
 	}
 
 	@Test
